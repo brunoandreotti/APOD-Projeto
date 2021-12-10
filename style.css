@@ -36,9 +36,15 @@ header h1 {
   padding: 1rem;
 }
 
+#data{
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
 #button {
-  padding: 0.5rem;
+  padding: 1rem;
   outline: none;
+  font-size: 1.5rem;
   background-color: black;
   border: black 2px solid;
   border-radius: 20px;
@@ -116,6 +122,10 @@ main {
   #videoImg {
     height: 400px;
     width: 600px;
+  }
+
+  #button:hover {
+    transform: none
   }
 
   
