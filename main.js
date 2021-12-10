@@ -13,18 +13,17 @@ $('#button').click(function () {
     type: 'GET',
     url: `https://api.nasa.gov/planetary/apod?api_key=${key}&date=${data}`,
     success: function (response) {
-      console.log(response)
-
       exibeConteudo(response)
     },
-    error: function() {
-      alert('Selecione uma data valida! As imagens estão disponíveis desde 16/06/1995 até o dia de hoje!')
+    error: function () {
+      alert(
+        'Selecione uma data valida! As imagens estão disponíveis desde 16/06/1995 até o dia de hoje!'
+      )
     }
   })
 })
 
 function exibeConteudo(response) {
-
   let image = $('#picImg')
   let video = $('#videoImg')
 
