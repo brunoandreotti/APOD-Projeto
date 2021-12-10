@@ -32,6 +32,10 @@ header {
   text-align: center;
 }
 
+header h1 {
+  padding: 1rem;
+}
+
 #button {
   padding: 0.5rem;
   outline: none;
@@ -56,6 +60,7 @@ main {
 
 #picTitle {
   padding: 3rem;
+  text-align: center;
 }
 
 #content {
@@ -66,8 +71,8 @@ main {
 }
 
 #picImg {
-  width: 40rem;
-  height: 40rem;
+  display: flex;
+  width: 60%;
   padding: 2rem;
 }
 
@@ -110,4 +115,6 @@ main {
     height: 400px;
     width: 600px;
   }
+
+  
 }
