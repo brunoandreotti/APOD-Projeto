@@ -8,7 +8,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background: linear-gradient(
@@ -37,14 +37,17 @@ header h1 {
 }
 
 #data{
-  padding: 1rem;
-  font-size: 1.2rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
 
+
+
 #button {
-  padding: 1rem;
+  padding: 0.6rem;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: black;
   border: black 2px solid;
   border-radius: 20px;
@@ -104,10 +107,14 @@ main {
     padding: 3rem;
   }
 
-  header input {
-    margin: 1rem;
-    margin-bottom: 3rem;
+  #data{
+    margin-top: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
+
+  
 
   #content {
     flex-direction: column;
