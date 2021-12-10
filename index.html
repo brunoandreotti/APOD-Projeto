@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APOD</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Astronomic Picture of The Day</h1>
+    <span>Escolha uma data para ver a Imagem Astronômica do Dia!</span>
+    <input type="date" name="data" id="data">
+    <button id="button">Procurar!</button>
+  </header>
+ 
+  <main>
+    <h2 id="picTitle">Eclipse on a Polar Day</h2>
+    <div id="content">
+      <img class='visibility' id="picImg" src="" alt="">
+      <iframe class='visibility'  id='videoImg' src="" frameborder="0"></iframe>      
+      <p id="picDesc">During polar day, in Arctic and Antarctic summer, the Sun stays above the horizon for periods of 24 hours or more. Recorded on December 4, this fisheye timelapse image tracks the Sun in multiple frames as it completes a circle in the summer sky above Union Glacier, Antarctica. Of course on that date, Union Glacier's sky did grow dark even though the Sun was above the horizon. Captured during the brief period of totality, an eclipsed Sun is at bottom center of the composite view. Near the edge of the total eclipse path across planet Earth, the Moon's shadow darkens the sky above.</p>
+    </div>
+  </main>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
