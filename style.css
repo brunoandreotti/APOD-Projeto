@@ -84,7 +84,9 @@ main {
   padding: 2rem;
   font-size: 1.5rem;
   height: 40rem;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
 }
 
 @media (max-width: 1456px) {
